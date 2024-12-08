@@ -1,0 +1,48 @@
+.App {
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #222222;
+  border-radius: 10px;
+}
+
+.App h2 {
+  text-transform: capitalize;
+}
+
+.App ul li{
+  list-style: none;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.App ul li .icon {
+  margin-left: 80px;
+  cursor: pointer;
+  color: red;
+}
+
+.App input {
+  padding: 5px 20px;
+  margin-right: 10px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.App button {
+  padding: 5px 20px;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #222222;
+  background-color: #eeeeee;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #aaaaaa;
+}
